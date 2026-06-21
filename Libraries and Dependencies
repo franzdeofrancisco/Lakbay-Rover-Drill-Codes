@@ -1,0 +1,15 @@
+# 📦 System Dependencies & Libraries
+
+This document outlines all required libraries and dependencies for the 3-tier Dual Reciprocating Drill architecture. It is separated by hardware tier to make environment setup as easy as possible.
+
+---
+
+## 💻 Tier 1: Windows Command Center (HMI)
+**Environment:** Python 3.9+
+
+This tier runs the graphical user interface and parses the incoming OpenCV video stream and JSON telemetry.
+
+### External Packages
+Open your Windows Command Prompt or PowerShell and install the following:
+```bash
+pip install PyQt6 opencv-python
